@@ -14,7 +14,7 @@ public class CalculatorTest {
           assertEquals(5, calculator.sum(2, 3));
      }
      @Test
-     public void testSub() {   assertEquals(1, calculator.sub(3, 6));  }
+     public void testSub() {   assertEquals(-3, calculator.sub(3, 6));  }
      @Test
      public void testMul() {
           assertEquals(10, calculator.mul(2, 5));
