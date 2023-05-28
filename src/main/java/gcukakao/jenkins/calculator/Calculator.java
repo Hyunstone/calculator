@@ -3,6 +3,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class Calculator {
+     // 아래는 메소드 모음
      public int sum(int a, int b) {
           return a + b;
      }
